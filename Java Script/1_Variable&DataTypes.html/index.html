@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript - First Lecture</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body{
+background:#e6f0ff;
+padding:40px;
+color:#1e293b;
+line-height:1.7;
+}
+
+/* Main Heading */
+.main-heading{
+text-align:center;
+font-size:40px;
+color:#0f172a;
+margin-bottom:30px;
+border-bottom:4px solid #2563eb;
+padding-bottom:10px;
+}
+
+/* Sub Headings */
+h2{
+margin-top:30px;
+color:#1d4ed8;
+}
+
+/* Lists */
+ul{
+margin-left:25px;
+margin-top:10px;
+}
+
+/* Links */
+a{
+text-decoration:none;
+color:#1d4ed8;
+font-weight:bold;
+border-bottom:2px solid transparent;
+padding:2px;
+transition:0.3s;
+}
+
+a:hover{
+border-bottom:2px solid #1d4ed8;
+}
+
+/* Code block */
+pre{
+background:#0f172a;
+color:#22c55e;
+padding:12px;
+border-radius:6px;
+margin-top:10px;
+width:fit-content;
+}
+
+/* text */
+.text-box{
+font-size:20px;
+margin-top:25px;
+}
+
+/* memory text */
+.memory{
+font-weight:bold;
+margin-top:10px;
+}
+
+/* diagram box */
+.purple-box{
+background:#6366f1;
+padding:20px;
+width:350px;
+margin-top:10px;
+border-radius:6px;
+}
+
+.radius{
+color:white;
+margin-bottom:10px;
+}
+
+.white-container{
+display:flex;
+gap:10px;
+}
+
+.white-box{
+width:80px;
+height:60px;
+background:white;
+border-radius:6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="main-heading">JavaScript - First Lecture</h1>
+
+<section>
+
+<h2>(1) What is JavaScript?</h2>
+
+<ul>
+<li>JavaScript is a Programming language. We use it to give instructions to the computer.</li>
+</ul>
+
+<br>
+
+<article>Input (Code) → Computer → Output</article>
+
+<h2>(2) Setting up VS Code</h2>
+
+<ul>
+<li>It is a free & popular Code Editor by Microsoft.</li>
+</ul>
+
+<h2>Our 1st JavaScript Code</h2>
+
+<article>Console.log is used to log (print) a message to the console.</article>
+
+<pre>console.log("Namaste JavaScript!")</pre>
+
+<br>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/first.html">JavaScript First Code</a>
+
+<div class="text-box">
+Variables are Containers for Data
+</div>
+
+<div class="memory">Memory</div>
+
+<div class="purple-box">
+
+<div class="radius">Radius</div>
+
+<div class="white-container">
+<div class="white-box"></div>
+<div class="white-box"></div>
+<div class="white-box"></div>
+</div>
+
+</div>
+
+<br>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/variablesInJs.html">Variables are Containers for Data</a>
+
+<h2>Variable Rules</h2>
+
+<ul>
+<li>Variable names are case sensitive. "a" & "A" are different.</li>
+<li>Only letters, digits, underscore (_) and $ are allowed (space not allowed).</li>
+<li>Only a letter, underscore (_) or $ should be the first character.</li>
+<li>Reserved words cannot be variable names.</li>
+</ul>
+
+<br>
+
+<a href="">Variable Rules</a>
+
+<h2>let, const & var</h2>
+
+<ul>
+<li><b>var :</b> Variable can be re-declared & updated. It is a global scope variable.</li>
+<li><b>let :</b> Variable cannot be re-declared but can be updated. It is a block scope variable.</li>
+<li><b>const :</b> Variable cannot be re-declared or updated. It is a block scope variable.</li>
+</ul>
+
+<br>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/LetConst&Var.html">let, const & var</a>
+
+<h2>Data Types in JavaScript</h2>
+
+<ul>
+<li>Number</li>
+<li>String</li>
+<li>Boolean</li>
+<li>Undefined</li>
+<li>Null</li>
+<li>BigInt</li>
+<li>Symbol</li>
+</ul>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/DataTypes.html">DataTypes In JavaScript</a>
+
+<h2>Let's Practice Questions</h2>
+
+<p>
+<strong>Question 1:</strong> Create a const object called <b>"product"</b> to store information shown in the picture.
+</p>
+
+<br>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/PracticeQuestions1.html">Ans</a>
+
+<br><br>
+
+<p>
+<strong>Question 2:</strong> Create a const object called <b>"profile"</b> to store information shown in the picture.
+</p>
+
+<br>
+
+<a href="http://127.0.0.1:5500/1_Variable&DataTypes.html/PracticeQuestions2.html">Ans</a>
+
+</section>
+
+</body>
+</html>
