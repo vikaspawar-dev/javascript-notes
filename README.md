@@ -15,3 +15,4 @@ More topics will be added as I continue learning JavaScript.
 
 ## Project Structure
 
+https://vikaspawar-dev.github.io/javascript-notes/
